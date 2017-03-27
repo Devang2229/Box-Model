@@ -1,0 +1,75 @@
+/* Box model  */
+html{
+font-family: sans-serif;
+font-style: 150%;
+}
+body {
+margin: 0;
+padding: 0;
+}
+
+div#container {
+  /* background image*/
+  backgroud-color: light blue;
+  background-image: url("../image/stucco.jpg");
+  background-repeat: no repeat;
+  background-position: center left;
+/* Borders */
+/*border-width: 5px;
+border-style: dotted;
+border-color: red;
+border-top-width: 5px;
+border-right-width: 50px;
+border-bottom-width: 100px;
+border-left-width: 150; */
+/*border-width: 5px 50px*/
+/* shorthand width style color */
+border: 5px solid limegreen;
+
+/*Margin */
+margin: 20px auto 30px auto; /*top right bottom left */
+
+/*Paddinng */
+
+  padding: 30px;
+
+  /* width and height */
+  width: 600px;
+  height: 500px;
+  overflow: scroll;
+}
+
+header{
+  border: 5px solid orange;
+}
+
+main{
+  border:5px solid orange;
+}
+
+section{
+  border: 5px solid yellow;
+  width: 30%;
+  float: left;
+  /*float: right;*/
+  display inline-block;
+  }
+section p img{
+  float: right;
+}
+
+  div#sidebar {
+    border: 5px solid purple;
+    /* clear the float */
+    clear: both;
+    position: absolute;
+    width: 300px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+}
+
+  footer {
+    border: 5px solid purple;
+    clear both;
+  }
